@@ -1,0 +1,10 @@
+ # Criar um arquivo chamado requirements.txt e adicionar os pacotes necessários
+ # esses são os requisitos de bibliotecas python para o projeto
+ # esse arquivo é muito útil para não precisar instalar manualmente cada biblioteca
+ # o arquivo pode ser usado com pip para instalar todas as dependências de uma vez
+ # Exemplo de comando para instalar as dependências: pip install -r requirements.txt
+ # o parâmetro -r indica que o pip deve ler o arquivo requirements.txt linha a linha
+
+pandas==2.2.3
+streamlit==1.44.1
+plotly==5.24.1
