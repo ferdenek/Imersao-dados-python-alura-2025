@@ -209,3 +209,34 @@ st.dataframe(df_filtrado) # exibe o dataframe filtrado como uma tabela interativ
     # 4 - puxar o arquivo app.py com o codigo do dashboard
     # 5 - puxar o arquivo dados-imersao-final.csv com os dados tratados
           #**importante para puxar os arquivos no git, usar add file/uplod file e buscar na pasta do projeto no pc
+    # 6 - fazer o commit das alterações e publicar no github
+
+    # qual ferramenta vai pegar esse projeto no github e publicar na nuvem?
+    # 7 - usar o streamlit cloud - https://streamlit.io/cloud   
+    
+# *** observacoes sobre o streamlit cloud ***
+# wants to access your ferdenek account procura a conta para acesso ao github
+# Repository webhooks and services, sao usados para integrar o github com outras ferramentas
+# Admin access, serve para permitir que a ferramenta tenha acesso total ao repositório 
+# Codespace é um ambiente de desenvolvimento baseado em nuvem que permite criar, editar e executar código diretamente no navegador.
+# Manage codespaces - Permite que a ferramenta gerencie os codespaces associados ao repositório.
+# Repositories access - Permite que a ferramenta acesse os repositórios do usuário.
+# Public repositories - Permite que a ferramenta acesse repositórios públicos do usuário.
+# Organizations and teams access - Permite que a ferramenta acesse organizações e equipes associadas ao usuário.
+# Read-only access - Permite que a ferramenta tenha acesso somente leitura aos dados.
+# Personal user data - Permite que a ferramenta acesse dados pessoais do usuário.
+# Email addresses (read-only) - Permite que a ferramenta acesse os endereços de e-mail do usuário em modo somente leitura.
+
+# 8 - criar uma conta no streamlit cloud - usei opcao free (pode usar a conta do github para facilitar)
+# 9 - permitir que o streamlit cloud acesse os repositórios do github
+# 10 - clicar em New app
+# 11 - selecionar o repositório que contem o projeto do dashboard
+# 12 - selecionar a branch main e o arquivo app.py
+# 13 - clicar em Deploy 
+# 14 - aguardar a publicação do dashboard na nuvem (hospedando em nuvem)
+# no item acima ele vai instalar as bibliotecas do requirements.txt automaticamente, pode demorar um pouco
+# ja vai mostrar o dashboard rodando na nuvem
+# Pronto! O dashboard agora está publicado na nuvem e pode ser acessado via URL fornecida pelo Streamlit Cloud.
+# lembrando que no modo free do streamlit cloud, o dashboard pode entrar em modo de hibernação apos um periodo de inatividade
+# que na aula falaram que é 24 horas
+
